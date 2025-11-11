@@ -16,6 +16,7 @@ RUN apt update && apt upgrade -y && \
         libelf-dev \
         libssl-dev \
         file \
+        cpio \
         rsync \
         dosfstools \
         git \
