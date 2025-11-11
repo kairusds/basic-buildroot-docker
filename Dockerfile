@@ -22,8 +22,7 @@ RUN apt update && apt upgrade -y && \
         git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN useradd -ms /bin/bash ubuntu && \
-    usermod -aG sudo ubuntu && \
+RUN usermod -aG sudo ubuntu && \
     echo '%sudo ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/90-nopasswd && \
     mkdir /build && \
     chown ubuntu:ubuntu /build
