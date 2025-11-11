@@ -17,6 +17,7 @@ RUN apt update && apt upgrade -y && \
         libssl-dev \
         file \
         cpio \
+        genimage \
         rsync \
         dosfstools \
         git \
