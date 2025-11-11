@@ -18,6 +18,7 @@ RUN apt update && apt upgrade -y && \
         file \
         cpio \
         genimage \
+        mtools \
         rsync \
         dosfstools \
         git \
