@@ -15,7 +15,6 @@ RUN apt update && apt upgrade -y && \
         bzip2 \
         libelf-dev \
         libssl-dev \
-        extlinux \
         file \
         rsync \
         dosfstools \
